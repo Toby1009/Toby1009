@@ -1,9 +1,7 @@
 # Hi, I'm Malingshu
 
-<p align="center">
-  <img src="/github-metrics.svg" alt="GitHub Metrics" width="100%" />
-</p>
-
-<p align="center">
-  <img src="/metrics.plugin.isocalendar.fullyear.svg" alt="Full-year calendar" width="100%" />
-</p>
+![](./profile-summary-card-output/tokyonight/0-profile-details.svg)
+![](./profile-summary-card-output/tokyonight/1-repos-per-language.svg)
+![](./profile-summary-card-output/tokyonight/2-most-commit-language.svg)
+![](./profile-summary-card-output/tokyonight/3-stats.svg)
+![](./profile-summary-card-output/tokyonight/4-productive-time.svg)

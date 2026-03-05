@@ -1,0 +1,25 @@
+name: GitHub-Profile-Summary-Cards
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-summary-cards
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN || github.token }}
+        with:
+          USERNAME: Toby1009
+          BRANCH_NAME: main
+          UTC_OFFSET: 8
+          AUTO_PUSH: true
