@@ -1,4 +1,5 @@
-# Hi,I'm Malingshu
+# Hi, I'm Malingshu
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Toby1009&show_icons=true&theme=transparent)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Toby1009&layout=compact)](https://github.com/Toby1009/github-readme-stats)
+<p align="center">
+  <img src="/github-metrics.svg" alt="GitHub Metrics" width="100%" />
+</p>
